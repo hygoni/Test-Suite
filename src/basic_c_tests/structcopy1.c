@@ -1,4 +1,5 @@
-extern MAYALIAS(void*,void*);
+#include "aliascheck.h"
+
 struct innerStruct{
 int m;
 int* n;

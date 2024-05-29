@@ -1,4 +1,4 @@
-extern void NOALIAS(void*,void*);
+#include "aliascheck.h"
 
 struct S {int f0; int f1; int f2;};
 

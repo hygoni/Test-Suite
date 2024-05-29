@@ -1,4 +1,5 @@
-extern void MAYALIAS(void*,void*);
+#include "aliascheck.h"
+
 int main() {
 	int a, b;
 	int* source[2] = {&a, &b};
