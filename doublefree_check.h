@@ -26,3 +26,11 @@ void* SAFEFREE(int * p){
 void* DOUBLEFREE(int * p){
     free(p);
 }
+
+void* DOUBLEFREE_FP(long * p){
+  printf("\n");
+}
+
+void* UAFFUNC_FP(long * p){
+  printf("\n");
+}
