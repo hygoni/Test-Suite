@@ -21,8 +21,7 @@ OPTIONS=(
 )
 
 
-FOLDERS="basic_c_tests basic_cpp_tests fs_tests cs_tests"
-# double_free"
+FOLDERS="basic_c_tests basic_cpp_tests fs_tests cs_tests double_free"
 
 for folder in $FOLDERS;
 do
